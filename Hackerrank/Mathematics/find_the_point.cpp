@@ -34,7 +34,7 @@ int main() {
     vector<int> r;
 
     for (int i=0; i<n; ++i) {
-        // Take input co-ordinated
+        // Take input co-ordinates
         cin >> px >> py >> qx >> qy;
         // Find the solution
         r = find_reflection(px, py, qx, qy);
